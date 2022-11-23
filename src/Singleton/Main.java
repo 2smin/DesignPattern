@@ -13,5 +13,11 @@ public class Main {
         Setting2 setting21 = Setting2.getInstance();
 
         System.out.println(setting21 == setting2);
+
+        Setting4 setting4 = Setting4.INSTANCE;
+        Setting4 setting41 = Setting4.INSTANCE;
+
+
+        System.out.println(setting4 == setting41);
     }
 }
