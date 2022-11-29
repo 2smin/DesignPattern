@@ -1,4 +1,4 @@
-package Factory;
+package FactoryPattern;
 
 public class BlackShipFactory implements ShipFactory{
 

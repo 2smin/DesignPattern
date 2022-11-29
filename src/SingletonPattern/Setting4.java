@@ -1,4 +1,4 @@
-package Singleton;
+package SingletonPattern;
 
 
 //simple but cannot extend abstract class

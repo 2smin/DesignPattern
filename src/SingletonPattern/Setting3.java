@@ -1,4 +1,4 @@
-package Singleton;
+package SingletonPattern;
 
 public class Setting3 {
     private static class holder{

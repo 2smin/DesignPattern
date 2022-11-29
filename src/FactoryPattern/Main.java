@@ -1,4 +1,4 @@
-package Factory;
+package FactoryPattern;
 
 public class Main {
 
@@ -11,6 +11,7 @@ public class Main {
 
         main.shipClient(blackShipFactory, "black1", 5);
         main.shipClient(blackShipFactory, "black2", 3);
+        main.shipClient(new BlackShipFactory(), "blakc3",6);
 
     }
 
