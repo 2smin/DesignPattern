@@ -1,10 +1,34 @@
 package FactoryPattern;
 
+import AbstractFactoryPattern.Anchor;
+import AbstractFactoryPattern.Wheel;
+
 public abstract class Ship {
 
     private String name;
     private String color;
+
+    public void setAnchor(Anchor anchor) {
+        this.anchor = anchor;
+    }
+
+    public void setWheel(Wheel wheel) {
+        this.wheel = wheel;
+    }
+
     private int size;
+
+    private Anchor anchor;
+
+    private Wheel wheel;
+
+    public Anchor getAnchor() {
+        return anchor;
+    }
+
+    public Wheel getWheel() {
+        return wheel;
+    }
 
     public String getName() {
         return name;
