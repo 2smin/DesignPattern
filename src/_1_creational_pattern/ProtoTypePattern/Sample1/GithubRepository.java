@@ -1,4 +1,4 @@
-package _1_creational_pattern.ProtoTypePattern;
+package _1_creational_pattern.ProtoTypePattern.Sample1;
 
 public class GithubRepository {
 

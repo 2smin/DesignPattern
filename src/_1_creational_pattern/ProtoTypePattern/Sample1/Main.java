@@ -1,15 +1,15 @@
-package _1_creational_pattern.ProtoTypePattern;
+package _1_creational_pattern.ProtoTypePattern.Sample1;
 
 public class Main {
 
     public static void main(String[] args) throws CloneNotSupportedException {
 
 
-        _1_creational_pattern.ProtoTypePattern.GithubRepository githubRepository = new _1_creational_pattern.ProtoTypePattern.GithubRepository();
+        GithubRepository githubRepository = new GithubRepository();
         githubRepository.setRepoNum("123");
         githubRepository.setUser("2smin");
 
-        _1_creational_pattern.ProtoTypePattern.GithubIssue githubIssue = new _1_creational_pattern.ProtoTypePattern.GithubIssue();
+        GithubIssue githubIssue = new GithubIssue();
         githubIssue.setIssueName("mainIssue");
         githubIssue.setMessage("issue occured");
         githubIssue.setGithubRepository(githubRepository);
@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println(githubIssue.toString());
 
-        _1_creational_pattern.ProtoTypePattern.GithubIssue githubIssue1 = (_1_creational_pattern.ProtoTypePattern.GithubIssue) githubIssue.clone();
+        GithubIssue githubIssue1 = (GithubIssue) githubIssue.clone();
 
         System.out.println(githubIssue == githubIssue1);
         System.out.println(githubIssue.equals(githubIssue1));

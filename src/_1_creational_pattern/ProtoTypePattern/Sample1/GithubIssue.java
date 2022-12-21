@@ -1,4 +1,4 @@
-package _1_creational_pattern.ProtoTypePattern;
+package _1_creational_pattern.ProtoTypePattern.Sample1;
 
 import java.util.Objects;
 
@@ -10,7 +10,7 @@ public class GithubIssue implements Cloneable{
 
     private String message;
 
-    private _1_creational_pattern.ProtoTypePattern.GithubRepository githubRepository;
+    private GithubRepository githubRepository;
 
     public int getIssueNum() {
         return issueNum;
@@ -46,11 +46,11 @@ public class GithubIssue implements Cloneable{
         this.message = message;
     }
 
-    public _1_creational_pattern.ProtoTypePattern.GithubRepository getGithubRepository() {
+    public GithubRepository getGithubRepository() {
         return githubRepository;
     }
 
-    public void setGithubRepository(_1_creational_pattern.ProtoTypePattern.GithubRepository githubRepository) {
+    public void setGithubRepository(GithubRepository githubRepository) {
         this.githubRepository = githubRepository;
     }
 
@@ -69,7 +69,7 @@ public class GithubIssue implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        _1_creational_pattern.ProtoTypePattern.GithubRepository githubRepository = new _1_creational_pattern.ProtoTypePattern.GithubRepository();
+        GithubRepository githubRepository = new GithubRepository();
         githubRepository.setRepoNum(this.githubRepository.getRepoNum());
         githubRepository.setUser(this.githubRepository.getUser());
 
