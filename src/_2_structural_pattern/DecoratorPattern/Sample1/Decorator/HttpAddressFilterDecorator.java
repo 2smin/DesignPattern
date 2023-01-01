@@ -1,7 +1,7 @@
-package _2_structural_pattern.DecoratorPattern.Decorator;
+package _2_structural_pattern.DecoratorPattern.Sample1.Decorator;
 
 
-import _2_structural_pattern.DecoratorPattern.HttpAddressFilterService;
+import _2_structural_pattern.DecoratorPattern.Sample1.HttpAddressFilterService;
 
 public class HttpAddressFilterDecorator implements HttpAddressFilterService {
 

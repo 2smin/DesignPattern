@@ -1,7 +1,7 @@
-package _2_structural_pattern.DecoratorPattern;
+package _2_structural_pattern.DecoratorPattern.Sample1;
 
-import _2_structural_pattern.DecoratorPattern.Decorator.AddSuffixAddressDecorator;
-import _2_structural_pattern.DecoratorPattern.Decorator.TrimHttpAddressDecorator;
+import _2_structural_pattern.DecoratorPattern.Sample1.Decorator.AddSuffixAddressDecorator;
+import _2_structural_pattern.DecoratorPattern.Sample1.Decorator.TrimHttpAddressDecorator;
 
 public class Client {
 
