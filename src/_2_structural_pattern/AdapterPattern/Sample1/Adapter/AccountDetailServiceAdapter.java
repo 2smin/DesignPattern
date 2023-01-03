@@ -1,9 +1,9 @@
-package _2_structural_pattern.AdapterPattern.Adapter;
+package _2_structural_pattern.AdapterPattern.Sample1.Adapter;
 
-import _2_structural_pattern.AdapterPattern.Adaptee.Account;
-import _2_structural_pattern.AdapterPattern.Adaptee.AccountDetailService;
-import _2_structural_pattern.AdapterPattern.UserDetail;
-import _2_structural_pattern.AdapterPattern.UserDetailService;
+import _2_structural_pattern.AdapterPattern.Sample1.Adaptee.Account;
+import _2_structural_pattern.AdapterPattern.Sample1.Adaptee.AccountDetailService;
+import _2_structural_pattern.AdapterPattern.Sample1.UserDetail;
+import _2_structural_pattern.AdapterPattern.Sample1.UserDetailService;
 
 public class AccountDetailServiceAdapter implements UserDetailService {
 

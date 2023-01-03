@@ -1,4 +1,4 @@
-package _2_structural_pattern.AdapterPattern.Adaptee;
+package _2_structural_pattern.AdapterPattern.Sample1.Adaptee;
 
 public class AccountDetailService {
 

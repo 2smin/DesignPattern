@@ -1,7 +1,7 @@
-package _2_structural_pattern.AdapterPattern;
+package _2_structural_pattern.AdapterPattern.Sample1;
 
-import _2_structural_pattern.AdapterPattern.Adaptee.AccountDetailService;
-import _2_structural_pattern.AdapterPattern.Adapter.AccountDetailServiceAdapter;
+import _2_structural_pattern.AdapterPattern.Sample1.Adaptee.AccountDetailService;
+import _2_structural_pattern.AdapterPattern.Sample1.Adapter.AccountDetailServiceAdapter;
 
 public class App {
 
